@@ -1,0 +1,29 @@
+{
+    "name": "kevin0614/tencent-cloud-live",
+    "description": "接入腾讯云主播 SDK工具库",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kevin",
+            "email": "drzhong2015@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "kevin0614/helper": "1.0.4",
+        "tencentcloud/tencentcloud-sdk-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tencent\\Live\\" : "src/tencent/live"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
